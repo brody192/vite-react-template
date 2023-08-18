@@ -23,10 +23,19 @@ This is a [Vite + React](https://vitejs.dev/guide/#trying-vite-online) starter t
 - Install required dependencies with `npm install`
 - Start the server for local development `npm run dev`
 
-## ❓ Why use `serve`
+## ❓ Why use `Caddy` when deploying to Railway?
 
-By default Railway will use the `start` script defined in package.json to run your app, the default Vite + React starter project does not come with any `start` script, so I have added `serve` as the start script, there are many benefits to using serve over just running the vite command. 
+Caddy is a powerful, enterprise-ready, open source web server, and therefore Caddy is far better suited to serve websites than Vite is, using Caddy will result in much less memory and cpu usage compared to serving with Vite (much lower running costs too)
 
- - `serve` is more suited to run single page apps
- - Uses less ram than `vite` or `vite preview` (<100mb)
- - Far more performant and stable
+To see how this is achieved with nixpacks, check out the fully documented nixpacks.toml file in this repository
+
+The configuration for Caddy is called a Caddyfile, and you can edit that file to further suite your needs, by default it comes configured to serve a single page app for Vue 3, and to also gzip the responses
+
+**Relevant Caddy documentation:**
+
+- [The Caddyfile](https://caddyserver.com/docs/caddyfile)
+- [Caddyfile Directives](https://caddyserver.com/docs/caddyfile/directives)
+- [root](https://caddyserver.com/docs/caddyfile/directives/root)
+- [encode](https://caddyserver.com/docs/caddyfile/directives/encode)
+- [file_server](https://caddyserver.com/docs/caddyfile/directives/file_server)
+- [try_files](https://caddyserver.com/docs/caddyfile/directives/try_files)
