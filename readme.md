@@ -1,22 +1,22 @@
 ---
 title: Vite + React
-description: The default Vite + React starter, utilizing `serve` to serve the built app
+description: The default Vite + React starter, utilizing `Caddy` to serve the built app
 tags:
   - node
   - vite
   - react
 ---
 
-# Vite + React + Serve
+# Vite + React + Caddy
 
-This is a [Vite + React](https://vitejs.dev/guide/#trying-vite-online) starter that uses [serve](https://www.npmjs.com/package/serve).
+This is a [Vite + React](https://vitejs.dev/guide/#trying-vite-online) starter that uses [Caddy](https://caddyserver.com/).
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/NeiLty?referralCode=ySCnWl)
 
 ## ✨ Features
 
 - Vite + React
-- Serve
+- [Caddy](https://caddyserver.com/)
 
 ## 💁‍♀️ How to use
 
