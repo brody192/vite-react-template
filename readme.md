@@ -29,7 +29,7 @@ Caddy is a powerful, enterprise-ready, open source web server, and therefore Cad
 
 To see how this is achieved with nixpacks, check out the fully documented nixpacks.toml file in this repository
 
-The configuration for Caddy is called a Caddyfile, and you can edit that file to further suite your needs, by default it comes configured to serve a single page app for Vue 3, and to also gzip the responses
+The configuration for Caddy is called a Caddyfile, and you can edit that file to further suite your needs, by default it comes configured to serve a single page app for React, and to also gzip the responses
 
 **Relevant Caddy documentation:**
 
